@@ -51,3 +51,4 @@ if st.button("Prediksi & Tampilkan Parlay"):
         st.markdown(f"**Pertandingan {idx+1}**: {'Team A Menang' if result == 1 else 'Team B Menang'} (Odds: {odds})")
 
     st.success(f"Total Odds Parlay: {round(total_odds, 2)}") 
+add app.py
